@@ -27,6 +27,7 @@ class Song
   end
 
   def self.genre_count
+<<<<<<< HEAD
     hash={}
     @@genres.each do |genre|
       if !hash[genre]
@@ -50,6 +51,19 @@ class Song
       end
     end
     hash
+=======
+    genre_count={}
+    @@genres.each do |genre|
+    if !genre_count[genre]
+      genre_count[genre]=1
+    end
+    genre_count[genre]+=1
+  end
+
+  end
+
+  def self.artist_count
+>>>>>>> 257423bd38bd351a7b08aa6a603c74d1cafeb7a9
   end
 
 end
