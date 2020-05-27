@@ -37,7 +37,7 @@ class Song
       end
     end
       hash
-    end
+  end
 
 
 
@@ -52,4 +52,5 @@ class Song
     end
     hash
   end
-end
+
+
