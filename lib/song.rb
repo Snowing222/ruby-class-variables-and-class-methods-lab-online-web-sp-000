@@ -52,5 +52,3 @@ class Song
     end
     hash
   end
-
-
